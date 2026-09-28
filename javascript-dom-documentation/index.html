@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript DOM Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="eyebrow">JavaScript Documentation Demo</p>
+      <h1 id="title">Document Object Model</h1>
+      <p id="intro">This page demonstrates common DOM operations using JavaScript.</p>
+    </header>
+
+    <section class="card">
+      <h2>1. Change Text</h2>
+      <button id="changeTextButton">Change Heading</button>
+    </section>
+
+    <section class="card">
+      <h2>2. Change Style</h2>
+      <div id="styleBox" class="demo-box">Click the button to toggle a CSS class.</div>
+      <button id="toggleStyleButton">Toggle Style</button>
+    </section>
+
+    <section class="card">
+      <h2>3. Counter</h2>
+      <p id="count">0</p>
+      <div class="button-row">
+        <button id="decreaseButton">−</button>
+        <button id="increaseButton">+</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>4. Create and Remove Elements</h2>
+      <div id="itemContainer" class="item-container"></div>
+      <div class="button-row">
+        <button id="addItemButton">Add Item</button>
+        <button id="removeItemButton">Remove Last Item</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>5. Form Event</h2>
+      <form id="userForm">
+        <label for="name">Enter your name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required />
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMessage" class="message" aria-live="polite"></p>
+    </section>
+
+    <section class="card">
+      <h2>6. Callback Function</h2>
+      <p id="callbackMessage">Click the button to see a callback function run.</p>
+      <button id="callbackButton">Run Callback</button>
+    </section>
+
+    <section class="card">
+      <h2>7. DOM Information</h2>
+      <ul id="domInfo">
+        <li>Elements can be selected with DOM APIs.</li>
+        <li>Content can be changed dynamically.</li>
+        <li>Events can trigger JavaScript functions.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
